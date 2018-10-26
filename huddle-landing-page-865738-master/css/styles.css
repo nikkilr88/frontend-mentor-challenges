@@ -1,0 +1,100 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+h1 {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 2.7em;
+  margin: 25px 0;
+}
+
+nav {
+  padding: 50px;
+  margin-bottom: 100px;
+}
+
+#hero p {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 90%;
+  font-size: 1.2em;
+  line-height: 1.9;
+  color: hsl(208, 11%, 55%);
+}
+
+#hero #mockups {
+  display: block;
+  margin: 100px auto 0px auto;
+  width: 70%;
+}
+
+#sign-up input {
+  margin: 25px 10px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+input.email {
+  width: 500px;
+  border: 1px solid #ccc;
+}
+
+input.btn {
+  background: hsl(322, 100%, 66%);
+  color: white;
+  width: 175px;
+  border: none;
+}
+
+footer {
+  padding: 50px;
+  background: hsl(192, 100%, 9%);
+  color: #fff;
+  height: 225px;
+  display: flex;
+}
+
+footer > div {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 0 0 50%;
+  justify-content: space-between;
+}
+
+footer .fab {
+  font-size: 1.5em;
+  padding-right: 15px;
+}
+
+footer #right {
+  text-align: right;
+}
+
+footer path {
+  fill: #fff;
+  opacity: 1;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-left: 25px;
+}
