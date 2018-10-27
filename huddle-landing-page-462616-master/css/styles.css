@@ -1,3 +1,10 @@
+:root {
+  --radius: 5px;
+  --pink: hsl(322, 100%, 66%);
+  --darkpink: hsl(322, 100%, 60%);
+  --grayblue: hsl(208, 11%, 55%);
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -11,28 +18,39 @@ body {
 
 section {
   text-align: center;
-  margin-bottom: 200px;
-  padding: 0 75px;
+  margin: 0 auto 200px auto;
+  padding: 0 50px;
 }
 
 h1 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 2.7em;
   margin: 25px 0;
 }
 
 h3 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  font-size: 1.5em;
-  margin: 10px 0;
+  font-size: 1.3em;
+  margin: 5px 0;
 }
 
 /* ==========nav========= */
 nav {
   padding: 50px;
   margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav button {
+  padding: 10px 25px;
+  align-self: center;
+  background: none;
+  border: 1px solid var(--pink);
+  border-radius: var(--radius);
+  color: var(--pink);
 }
 
 /* ==========hero========= */
@@ -42,17 +60,31 @@ nav {
   width: 90%;
   font-size: 1.2em;
   line-height: 1.9;
-  color: hsl(208, 11%, 55%);
+  color: var(--grayblue);
+}
+
+#hero button {
+  padding: 25px 50px;
+  margin: 50px 0;
+  background: linear-gradient(to bottom right, var(--pink), var(--darkpink));
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.2);
+  font-size: 1.05rem;
 }
 
 #hero #mockups {
   display: block;
-  margin: 100px auto 0px auto;
-  width: 70%;
+  margin: 50px auto 0px auto;
+  max-width: 800px;
+  width: 95%;
 }
 
 /* ==========info========= */
 #info {
+  max-width: 1000px;
+  width: 100%;
   text-align: left;
   display: flex;
   align-items: center;
@@ -60,13 +92,13 @@ nav {
 }
 
 #info p {
-  color: hsl(208, 11%, 55%);
-  line-height: 1.9;
-  padding: 10px 0;
+  color: var(--grayblue);
+  line-height: 1.7;
+  padding: 5px 0 15px 0;
 }
 
 #info #info-text {
-  flex: 0 0 40%;
+  flex: 0 0 45%;
 }
 
 #info figure {
@@ -139,6 +171,16 @@ footer ul li {
 
 /* ==========media queries========= */
 @media only screen and (max-width: 875px) {
+  #info {
+    flex-direction: column;
+  }
+  #info #info-text {
+    order: 2;
+  }
+
+  #info figure {
+    order: 1;
+  }
   #sign-up input {
     margin: 25px auto;
     display: block;
