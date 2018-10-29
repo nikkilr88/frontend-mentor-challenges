@@ -18,7 +18,7 @@ body {
 
 section {
   text-align: center;
-  margin: 0 auto 200px auto;
+  margin: 0 auto 175px auto;
   padding: 0 50px;
 }
 
@@ -130,13 +130,17 @@ input.btn {
 
 /* ==========footer========= */
 footer {
-  padding: 50px;
+  position: relative;
+  padding: 50px 50px 150px 50px;
   background: hsl(192, 100%, 9%);
   color: #fff;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  background-image: url('../images/bg-footer-desktop.png');
+  background-repeat: no-repeat;
+  background-position: 0 100%;
 }
 
 footer p {
@@ -188,6 +192,13 @@ footer ul {
 footer ul li {
   display: block;
   margin-bottom: 15px;
+}
+
+footer #copyright {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* ==========media queries========= */
