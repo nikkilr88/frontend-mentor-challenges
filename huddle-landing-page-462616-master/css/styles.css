@@ -142,6 +142,7 @@ footer {
   background-image: url('../images/bg-footer-desktop.png');
   background-repeat: no-repeat;
   background-position: 0 100%;
+  background-size: contain;
 }
 
 footer p {
@@ -238,6 +239,7 @@ footer #copyright {
     height: auto;
     flex-flow: column wrap;
     align-items: flex-start;
+    background-image: url('../images/bg-footer-mobile.png');
   }
   footer > div {
     align-content: flex-start;
