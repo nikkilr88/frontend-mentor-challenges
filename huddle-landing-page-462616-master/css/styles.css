@@ -95,11 +95,15 @@ nav button {
 #info p {
   color: var(--grayblue);
   line-height: 1.7;
-  padding: 5px 0 15px 0;
+  padding: 5px 0;
 }
 
 #info #info-text {
   flex: 0 0 45%;
+}
+
+#info .text-block {
+  margin: 25px 0;
 }
 
 #info figure {
@@ -206,8 +210,8 @@ footer #copyright {
 /* ==========media queries========= */
 @media only screen and (max-width: 875px) {
   section {
-    margin: 0 auto 75px auto;
-    padding: 25px;
+    margin: 0 auto 50px auto;
+    padding: 50px 25px;
   }
   h1 {
     font-size: 2rem;
@@ -221,6 +225,7 @@ footer #copyright {
   }
   #info {
     flex-direction: column;
+    background: #f6fbff;
   }
   #info #info-text {
     order: 2;
