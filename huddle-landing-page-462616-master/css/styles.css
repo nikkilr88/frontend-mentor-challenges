@@ -36,6 +36,10 @@ h3 {
   margin: 5px 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 button.large {
   padding: 25px 65px;
   margin: 25px 0;
@@ -183,6 +187,7 @@ footer #input-wrapper button {
 footer .fab {
   font-size: 1.5em;
   padding-right: 15px;
+  cursor: pointer;
 }
 
 footer path {
@@ -198,6 +203,7 @@ footer ul {
 footer ul li {
   display: block;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 footer #copyright {
