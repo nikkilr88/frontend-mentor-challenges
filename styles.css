@@ -151,15 +151,15 @@ span.color {
 }
 
 .red {
-  background: rgb(219, 38, 38);
+  background: #ff6b6b;
 }
 
 .yellow {
-  background: rgb(255, 255, 56);
+  background: #feca57;
 }
 
 .green {
-  background: rgb(59, 182, 59);
+  background: #1dd1a1;
 }
 
 /* ===========animations============ */
