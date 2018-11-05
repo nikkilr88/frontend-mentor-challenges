@@ -72,8 +72,8 @@ a {
 /* ===========sidebar============ */
 .sidebar {
   padding: 15px 0;
-  background: #2b2b2b;
-  color: #999;
+  background: #eee;
+  color: #444;
   flex: 0 0 30%;
 }
 
