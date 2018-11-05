@@ -8,6 +8,7 @@ body {
   background-repeat: no-repeat;
   font-family: sans-serif;
   min-height: 100%;
+  font-size: 15px;
 }
 
 * {
@@ -49,12 +50,7 @@ a {
 
 .status-bar .status-nav {
   display: flex;
-  font-size: 15px;
   margin-top: 10px;
-}
-
-.status-bar .status-nav .material-icons {
-  font-size: 22px;
 }
 
 .status-bar span:not(.color) {
@@ -142,12 +138,17 @@ span.color {
   cursor: pointer;
 }
 
+.location,
 .sidebar .material-icons {
   padding: 0 5px;
 }
 
 .arrow-right {
   opacity: 0.3;
+}
+
+.arrow-location {
+  font-size: inherit;
 }
 
 .red {
