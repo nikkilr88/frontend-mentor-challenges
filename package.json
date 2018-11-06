@@ -1,0 +1,15 @@
+{
+  "name": "frontend-mentor-challenges",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nikkilr88/frontend-mentor-challenges.git",
+  "author": "Nicole <nicole.sattler@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile:sass": "node-sass fylo-landing-page-496436-master/sass/main.scss fylo-landing-page-496436-master/css/styles.css -w"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
