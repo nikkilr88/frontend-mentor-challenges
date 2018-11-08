@@ -1,0 +1,24 @@
+.signup {
+  display: flex;
+  align-items: center;
+  padding: $section-padding;
+  background: $desaturated-blue;
+  color: #fff;
+  justify-content: space-between;
+
+  &__text {
+    flex: 0 0 40%;
+
+    &-para {
+      @include paraStyles();
+      margin-bottom: 0;
+    }
+  }
+
+  &__form {
+    .input {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+}

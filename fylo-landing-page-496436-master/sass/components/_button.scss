@@ -1,0 +1,9 @@
+.button {
+    padding: 15px 45px;
+    border: 2px solid $bright-blue;
+
+    &--bright-blue {
+        background: $bright-blue;
+        color: $white;
+    }
+}

@@ -1,0 +1,20 @@
+.nav {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway';
+  
+    &__menu {
+      list-style: none;
+  
+      &-item {
+        display: inline-block;
+        padding-right: 45px;
+  
+        &:last-child {
+          padding: 0;
+        }
+      }
+    }
+  }

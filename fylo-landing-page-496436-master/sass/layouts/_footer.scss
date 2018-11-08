@@ -1,0 +1,10 @@
+.footer {
+    background: $dark-blue;
+    color: #fff;
+    padding: $section-padding;
+    display: flex;
+
+    &__col {
+        flex: 0 0 25%;
+    }
+}
