@@ -1,10 +1,49 @@
 .footer {
-    background: $dark-blue;
-    color: #fff;
-    padding: $section-padding;
-    display: flex;
+  background: $dark-blue;
+  color: #fff;
+  padding: $section-padding;
+  display: flex;
 
-    &__col {
-        flex: 0 0 25%;
+  &__col {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    flex: 0 0 25%;
+  }
+
+  &__logo {
+    margin-bottom: 20px;
+    align-self: flex-start;
+    path {
+      fill: #fff;
     }
+  }
+
+  &__link {
+    list-style: none;
+    margin-bottom: 15px;
+  }
+
+  &__para {
+    align-self: flex-start;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+
+    &-icon {
+      margin-right: 15px;
+      width: 15px;
+    }
+  }
+
+  &__icon-wrapper {
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 0 10px;
+  }
 }
