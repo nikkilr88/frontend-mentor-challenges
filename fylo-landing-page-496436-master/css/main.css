@@ -41,7 +41,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px; }
+  padding: 75px 55px; }
   .hero__text {
     flex: 0 0 45%; }
   .hero__sub-heading {
@@ -55,7 +55,7 @@ body {
 
 .about {
   position: relative;
-  padding: 50px;
+  padding: 75px 55px;
   display: flex;
   align-items: center;
   background-color: #f7f7fd;
@@ -129,7 +129,7 @@ body {
 .signup {
   display: flex;
   align-items: center;
-  padding: 50px;
+  padding: 75px 55px;
   background: #585989;
   color: #fff;
   justify-content: space-between; }
@@ -146,7 +146,35 @@ body {
 .footer {
   background: #070439;
   color: #fff;
-  padding: 50px;
+  padding: 75px 55px;
   display: flex; }
   .footer__col {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     flex: 0 0 25%; }
+  .footer__logo {
+    margin-bottom: 20px;
+    align-self: flex-start; }
+    .footer__logo path {
+      fill: #fff; }
+  .footer__link {
+    list-style: none;
+    margin-bottom: 15px; }
+  .footer__para {
+    align-self: flex-start;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center; }
+    .footer__para-icon {
+      margin-right: 15px;
+      width: 15px; }
+  .footer__icon-wrapper {
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 0 10px; }
