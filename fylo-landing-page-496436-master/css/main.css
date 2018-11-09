@@ -154,12 +154,7 @@ body {
     width: 100%; }
   .about__link {
     display: inline-flex;
-    flex-flow: row wrap;
-    flex-grow: 0;
     align-items: center;
-    align-content: flex-start;
-    justify-content: flex-start;
-    align-self: flex-start;
     color: #3c9f8f;
     font-size: 1.1em;
     padding: 10px 0;
