@@ -6,17 +6,38 @@
   background-color: $gray-blue;
   margin-top: 200px;
 
-  &__curve {
+  @include mq(medium) {
+    flex-direction: column;
+  }
+  @include mq(small) {
+    padding: $section-padding-small;
+  }
+
+  &:before {
+    content: '';
     position: absolute;
     display: block;
     top: -100px;
     left: 0;
-    width: 100%;
     height: 114px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('../images/bg-curve-desktop.svg');
+
+    @include mq(small) {
+      background-image: url('../images/bg-curve-mobile.svg');
+      background-position: center;
+      background-size: 150% 100%;
+    }
   }
 
   &__text {
     flex: 0 0 55%;
+
+    @include mq(medium) {
+      order: 2;
+    }
   }
 
   &__para {
@@ -25,10 +46,20 @@
 
     font-family: 'Raleway';
     line-height: 1.5;
+
+    @include mq(small) {
+      width: 100%;
+    }
   }
 
   &__image-wrapper {
     flex: 0 0 45%;
+
+    @include mq(medium) {
+      order: 1;
+      flex-basis: 90%;
+      margin-bottom: 100px;
+    }
   }
 
   &__image {
