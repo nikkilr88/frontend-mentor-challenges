@@ -2,4 +2,14 @@
   padding: 15px;
   width: 300px;
   font-family: 'Raleway';
+
+  @include mq(medium) {
+    display: block;
+    margin: 15px auto;
+  }
+
+  @include mq(small) {
+    display: block;
+    width: 90%;
+  }
 }

@@ -1,5 +1,18 @@
 .heading {
-  font-size: $large-heading;
   line-height: 1.3;
   font-family: 'Raleway';
+
+  &--primary {
+    font-size: $heading-primary-large;
+
+    @include mq(small) {
+      font-size: $heading-primary-small;
+    }
+  }
+  &--secondary {
+    font-size: $heading-secondary-large;
+    @include mq(small) {
+      font-size: $heading-secondary-small;
+    }
+  }
 }

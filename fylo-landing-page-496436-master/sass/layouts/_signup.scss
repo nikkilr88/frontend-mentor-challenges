@@ -6,19 +6,34 @@
   color: #fff;
   justify-content: space-between;
 
+  @include mq(medium) {
+    flex-direction: column;
+    text-align: center;
+  }
+  @include mq(small) {
+    padding: $section-padding-small;
+  }
+
   &__text {
     flex: 0 0 40%;
+
+    @include mq(small) {
+      flex: 0 0 100%;
+    }
 
     &-para {
       @include paraStyles();
       margin-bottom: 0;
+
+      @include mq(medium) {
+        @include paraStyles();
+      }
     }
   }
 
   &__form {
-    .input {
+    @include mq(medium) {
       width: 100%;
-      margin: 10px 0;
     }
   }
 }

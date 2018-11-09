@@ -1,9 +1,15 @@
 .button {
-    padding: 15px 45px;
-    border: 2px solid $bright-blue;
+  padding: 15px 45px;
+  border: 2px solid $bright-blue;
 
-    &--bright-blue {
-        background: $bright-blue;
-        color: $white;
-    }
+  @include mq(small) {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  &--bright-blue {
+    background: $bright-blue;
+    color: $white;
+  }
 }

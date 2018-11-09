@@ -4,11 +4,20 @@
   padding: $section-padding;
   display: flex;
 
+  @include mq(medium) {
+    flex-direction: column;
+  }
+
   &__col {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     flex: 0 0 25%;
+
+    @include mq(medium) {
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
   }
 
   &__logo {
@@ -33,6 +42,12 @@
     &-icon {
       margin-right: 15px;
       width: 15px;
+    }
+  }
+
+  &__social-wrapper {
+    @include mq(medium) {
+      margin: 25px auto 0 auto;
     }
   }
 
