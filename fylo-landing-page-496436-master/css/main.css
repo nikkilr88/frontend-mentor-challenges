@@ -6,6 +6,36 @@ body {
   padding: 0;
   box-sizing: border-box; }
 
+.card {
+  background: #fff;
+  padding: 25px;
+  margin: 50px 0;
+  max-width: 400px;
+  width: 95%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1);
+  font-family: 'Raleway'; }
+  .card__icon {
+    height: 15px; }
+  .card__text {
+    margin: 15px 0;
+    line-height: 2; }
+  .card__footer {
+    display: flex;
+    align-items: center; }
+    .card__footer-text span {
+      display: block; }
+    .card__footer-text--bold {
+      font-weight: bold; }
+    .card__footer-text--small {
+      font-size: 0.9em; }
+  .card__avatar-wrapper {
+    margin-right: 10px; }
+  .card__avatar {
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; }
+
 .button {
   padding: 15px 45px;
   border: 2px solid #3065f8; }
@@ -164,35 +194,6 @@ body {
       display: inline-block;
       height: 23px;
       padding: 0 3px; }
-  .about .card {
-    background: #fff;
-    padding: 25px;
-    margin: 50px 0;
-    max-width: 400px;
-    width: 95%;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1);
-    font-family: 'Raleway'; }
-    .about .card__icon {
-      height: 15px; }
-    .about .card__text {
-      margin: 15px 0;
-      line-height: 2; }
-    .about .card__footer {
-      display: flex;
-      align-items: center; }
-      .about .card__footer-text span {
-        display: block; }
-      .about .card__footer-text--bold {
-        font-weight: bold; }
-      .about .card__footer-text--small {
-        font-size: 0.9em; }
-    .about .card__avatar-wrapper {
-      margin-right: 10px; }
-    .about .card__avatar {
-      display: block;
-      height: 50px;
-      width: 50px;
-      border-radius: 50%; }
 
 .signup {
   display: flex;
