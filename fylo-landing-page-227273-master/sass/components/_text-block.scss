@@ -1,0 +1,15 @@
+.text-block {
+  padding: $section-padding;
+  width: 85%;
+  line-height: 1.3;
+
+  &__heading {
+    margin: 20px 0;
+    font-size: 2.3em;
+  }
+
+  &__sub-heading {
+    font-size: 1.2em;
+    color: $gray;
+  }
+}
