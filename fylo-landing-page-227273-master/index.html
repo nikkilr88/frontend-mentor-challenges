@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Beta sign up split layout Challenge</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  All your files in one secure location, accessible anywhere.
+    <title>Frontend Mentor | Beta sign up split layout Challenge</title>
+  </head>
+  <body>
+    <!--
+      All your files in one secure location, accessible anywhere. Fylo stores all
+      your most important files in one secure location. Access them wherever you
+      need, share and collaborate with friends, family and co-workers. Sign up for
+      early access Sign Up Privacy Policy
+    -->
+    <section class="section-wrapper">
+      <section class="section-wrapper__left">
+        <figure class="image-wrapper">
+          <img
+            class="image"
+            src="./images/illustration-main.svg"
+            alt="illustration"
+          />
+        </figure>
+      </section>
 
-  Fylo stores all your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family and co-workers.
-
-  Sign up for early access
-
-  Sign Up
-
-  Privacy Policy
-
-  <footer>
-    <p class="attribution">
-      This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
-    </p>
-  </footer>
-</body>
+      <section class="section-wrapper__right">
+        <nav class="nav">
+          <img src="./images/logo.svg" alt="logo" />
+          <div class="nav__icons">
+            <i class="nav__icon fab fa-twitter"></i>
+            <i class="nav__icon fab fa-facebook-f"></i>
+            <i class="nav__icon fas fa-envelope"></i>
+          </div>
+        </nav>
+      </section>
+    </section>
+  </body>
 </html>
