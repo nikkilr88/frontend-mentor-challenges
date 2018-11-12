@@ -1,0 +1,20 @@
+.form {
+  padding: $section-padding;
+  padding-top: 0;
+
+  &__heading {
+    margin-bottom: 20px;
+  }
+
+  &__input {
+    @include form-elements();
+    border: 1px solid #eee;
+  }
+
+  &__button {
+    @include form-elements();
+    background: $green;
+    color: #fff;
+    border: 1px solid $green;
+  }
+}
