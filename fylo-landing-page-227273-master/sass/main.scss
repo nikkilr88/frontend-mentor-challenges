@@ -1,8 +1,13 @@
 @import './base/reset';
 
 @import './utils/variables';
+@import './utils/mixins';
 
 @import './layout/form-wrapper';
 @import './layout/nav';
+@import './layout/footer';
 
 @import './components/image';
+@import './components/text-block';
+@import './components/form';
+@import './components/link';
