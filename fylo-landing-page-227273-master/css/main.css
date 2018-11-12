@@ -32,7 +32,48 @@ body {
     .nav__icon:last-child {
       margin: 0; }
 
+.footer {
+  padding: 50px;
+  padding-top: 0;
+  text-align: right; }
+
 .image-wrapper {
   display: inline-block; }
   .image-wrapper .image {
     width: 80%; }
+
+.text-block {
+  padding: 50px;
+  width: 85%;
+  line-height: 1.3; }
+  .text-block__heading {
+    margin: 20px 0;
+    font-size: 2.3em; }
+  .text-block__sub-heading {
+    font-size: 1.2em;
+    color: gray; }
+
+.form {
+  padding: 50px;
+  padding-top: 0; }
+  .form__heading {
+    margin-bottom: 20px; }
+  .form__input {
+    margin: 0 5px;
+    padding: 15px 45px;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #eee; }
+  .form__button {
+    margin: 0 5px;
+    padding: 15px 45px;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    background: #05d69b;
+    color: #fff;
+    border: 1px solid #05d69b; }
+
+.link {
+  color: #070439;
+  border-bottom: 1px dotted #070439;
+  cursor: pointer; }
