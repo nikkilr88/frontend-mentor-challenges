@@ -9,10 +9,12 @@
   &__input {
     @include form-elements();
     border: 1px solid #eee;
+    padding: 15px;
   }
 
   &__button {
     @include form-elements();
+    padding: 15px 45px;
     background: $green;
     color: #fff;
     border: 1px solid $green;
