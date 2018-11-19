@@ -6,10 +6,16 @@
     margin-bottom: 20px;
   }
 
+  &__input-wrapper {
+    display: flex;
+    width: $width;
+  }
+
   &__input {
     @include form-elements();
     border: 1px solid #eee;
     padding: 15px;
+    flex-grow: 1;
   }
 
   &__button {
