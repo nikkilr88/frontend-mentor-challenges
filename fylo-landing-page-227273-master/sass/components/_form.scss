@@ -4,6 +4,7 @@
 
   &__heading {
     margin-bottom: 20px;
+    @include heading($heading-font);
   }
 
   &__input-wrapper {
