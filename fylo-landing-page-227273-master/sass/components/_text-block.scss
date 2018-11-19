@@ -6,6 +6,7 @@
   &__heading {
     margin: 20px 0;
     font-size: 2em;
+    @include heading($heading-font);
   }
 
   &__sub-heading {
