@@ -60,14 +60,18 @@ body {
   padding-top: 0; }
   .form__heading {
     margin-bottom: 20px; }
+  .form__input-wrapper {
+    display: flex;
+    width: 85%; }
   .form__input {
-    margin: 0 5px;
+    margin: 0 8px;
     border-radius: 4px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
     border: 1px solid #eee;
-    padding: 15px; }
+    padding: 15px;
+    flex-grow: 1; }
   .form__button {
-    margin: 0 5px;
+    margin: 0 8px;
     border-radius: 4px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
     padding: 15px 45px;
