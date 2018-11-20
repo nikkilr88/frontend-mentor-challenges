@@ -3,9 +3,29 @@
   padding: 50px;
   justify-content: space-between;
 
+  @include mq(medium) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+  }
+
+  &__logo {
+    @include mq(medium) {
+      & path {
+        fill: white;
+      }
+    }
+  }
+
   &__icon {
     font-size: 22px;
     margin-right: 45px;
+
+    @include mq(medium) {
+      margin-right: 25px;
+    }
 
     &:last-child {
       margin: 0;

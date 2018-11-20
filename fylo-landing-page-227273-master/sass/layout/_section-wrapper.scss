@@ -2,16 +2,28 @@
   display: flex;
   height: 100%;
 
+  @include mq(medium) {
+    flex-direction: column;
+  }
+
   &__left {
     display: flex;
     flex: 0 0 40%;
     justify-content: center;
     align-items: center;
     background: linear-gradient(40deg, $soft-blue -150%, $dark-blue 150%);
+
+    @include mq(medium) {
+      flex: 0 0 100%;
+      min-height: 600px;
+      text-align: center;
+      background: url('../../images/bg-intro.svg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
   }
 
   &__right {
     flex: 80%;
-    overflow: auto;
   }
 }
