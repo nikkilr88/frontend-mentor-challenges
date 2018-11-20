@@ -9,3 +9,11 @@
   font-family: $font;
   font-weight: 700;
 }
+
+@mixin mq($screen) {
+  @if $screen == 'medium' {
+    @media (max-width: 845px) {
+      @content;
+    }
+  }
+}
