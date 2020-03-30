@@ -55,14 +55,13 @@ a {
 
 .status-bar span:not(.color) {
   margin: 5px 2px;
-  padding: 5px;
+  padding: 5px 10px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   border-radius: 3px;
   background: #222;
   color: #999;
-  cursor: pointer;
 }
 
 .search-icon {
@@ -82,7 +81,6 @@ a {
   padding: 10px 25px;
   display: flex;
   align-items: center;
-  cursor: pointer;
 }
 
 .sidebar ul li:nth-child(4) {
@@ -130,7 +128,7 @@ footer {
 
 /* ===========icons/colors============ */
 span.color {
-  margin: 0 5px;
+  margin: 0 2px;
   height: 10px;
   width: 10px;
   border-radius: 50%;
@@ -140,7 +138,7 @@ span.color {
 
 .location,
 .sidebar .material-icons {
-  padding: 0 5px;
+  padding-right: 5px;
 }
 
 .arrow-right {
