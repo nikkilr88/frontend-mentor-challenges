@@ -1,14 +1,10 @@
 .form {
-  padding: $section-padding-lg;
   padding-top: 0;
 
   &__heading {
     margin-bottom: 20px;
     @include heading($heading-font);
-
-    @include mq(medium) {
-      font-size: 1.3em;
-    }
+    font-size: 1.3em;
   }
 
   &__input-wrapper {
@@ -28,7 +24,7 @@
     flex-grow: 1;
 
     @include mq(medium) {
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
   }
 

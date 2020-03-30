@@ -1,4 +1,8 @@
 .footer {
-  padding: $section-padding-lg;
   text-align: right;
+  margin-top: auto;
+
+  @include mq(medium) {
+    margin-top: 75px;
+  }
 }

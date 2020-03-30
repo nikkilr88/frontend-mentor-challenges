@@ -25,5 +25,12 @@
 
   &__right {
     flex: 80%;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+
+    @include mq(medium) {
+      padding: 0 45px 45px;
+    }
   }
 }
